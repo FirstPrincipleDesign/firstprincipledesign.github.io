@@ -1,2 +1,3 @@
 name: Sam Carter, First Principle Design
 markdown: bulma
+permalink: /blog/:year/:month/:day/:title
