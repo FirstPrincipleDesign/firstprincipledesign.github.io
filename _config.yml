@@ -1,4 +1,5 @@
 name: Sam Carter, First Principle Design
 permalink: /blog/:year/:month/:day/:title
-plugins:
-  - jekyll-sitemap
+markdown: kramdown
+sass:
+  style: compressed

@@ -3,7 +3,7 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to bulma stylesheet -->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+			<link rel="stylesheet" href="{{ "/assets/css/application.css" | prepend: site.baseurl }}" />
       <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 		</head>
 		<body>
@@ -32,7 +32,7 @@
 				  </a>
 				  <a class="navbar-item" href="/blog">
 				    Blog
-				  </a>  
+				  </a>
 			    </div>
 
 			    <div class="navbar-end">
@@ -61,17 +61,13 @@
 			    </div>
 			  </div>
 			</nav>
-			
-			
+
+
 			{{ content }}
-			
-			
+
+
 			<footer>
-	    		
+
 			</footer>
-		</body> 
+		</body>
 	</html>
-
-
-
-
