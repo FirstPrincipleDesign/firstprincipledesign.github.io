@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>First Principle Design Blog</title>
+	<link href="https://firstprincipledesign.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://firstprincipledesign.github.io/blog"/>
+	<updated>2018-02-24T17:19:43+00:00</updated>
+	<id>https://firstprincipledesign.github.io/blog</id>
+	<author>
+		<name>Sam Carter</name>
+		<email>samcarterux@gmail.com</email>
+	</author>
+
+	
+		<entry>
+			<title>Sam Carter, First Principle Design, First Post</title>
+			<link href="https://firstprincipledesign.github.io/blog/2018/02/22/first-post"/>
+			<updated>2018-02-22T00:00:00+00:00</updated>
+			<id>https://firstprincipledesign.github.io/blog/2018/02/22/first-post</id>
+			<content type="html">&lt;p&gt;Well. Finally got around to putting this old website together. Neat thing about it - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
+</content>
+		</entry>
+	
+
+</feed>

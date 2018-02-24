@@ -2,26 +2,27 @@
 layout: default
 title: Hello Bulma!
 ---
-<section class="hero is-fullheight">
+<section class="hero is-fullheight is-light">
     <div class="hero-body">
         <div class="container has-text-centered">
             <div class="columns is-vcentered">
                 <div class="column is-7">
                     <figure class="image is-7by3">
-                        <img src="http://placehold.it/800x600" alt="Description">
+                        <img src="{{ "/assets/images/Hero.png" | prepend: site.baseurl }}" alt="Description">
                     </figure>
                 </div>
-                <div class="column is-4 is-offset-1">
-                    <h1 class="title is-2">
-                        Superhero Scaffolding
+                <div class="column is-3 is-offset-1">
+                    <h1 class="title is-size-3 has-text-weight-normal playfair">
+                        Product and UX </br> Design Studio
                     </h1>
-                    <h2 class="subtitle is-4">
-                        Whatever blah, blah blah.
-                    </h2>
+                    <div class="is-divider"></div>
+                    <p class="has-text-centered">
+                      Our simple approach to design helps find elegant solutions to complex problems.
+                    </p>
                     <br>
                     <p class="has-text-centered">
-                    <a class="button is-medium is-info is-outlined">
-                        Learn more
+                    <a class="button is-primary is-medium">
+                        Blog
                     </a>
                 </p>
             </div>

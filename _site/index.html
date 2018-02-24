@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
+			<title>Hello Bulma!</title>
 			<!-- link to bulma stylesheet -->
-			<link rel="stylesheet" href="{{ "/assets/css/application.css" | prepend: site.baseurl }}" />
+			<link rel="stylesheet" href="/assets/css/application.css" />
       <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 		</head>
 		<body>
 			<nav class="navbar is-transparent">
 			  <div class="navbar-brand">
 			    <a class="navbar-item" href="https://bulma.io">
-			      <img src="{{ "/assets/images/Logo.png" | prepend: site.baseurl }}" alt="Bulma: a modern CSS framework based on Flexbox">
+			      <img src="/assets/images/Logo.png" alt="Bulma: a modern CSS framework based on Flexbox">
 			    </a>
 			    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
 			      <span></span>
@@ -63,7 +63,34 @@
 			</nav>
 
 
-			{{ content }}
+			<section class="hero is-fullheight is-light">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+                <div class="column is-7">
+                    <figure class="image is-7by3">
+                        <img src="/assets/images/Hero.png" alt="Description">
+                    </figure>
+                </div>
+                <div class="column is-3 is-offset-1">
+                    <h1 class="title is-size-3 has-text-weight-normal playfair">
+                        Product and UX </br> Design Studio
+                    </h1>
+                    <div class="is-divider"></div>
+                    <p class="has-text-centered">
+                      Our simple approach to design helps find elegant solutions to complex problems.
+                    </p>
+                    <br>
+                    <p class="has-text-centered">
+                    <a class="button is-primary is-medium">
+                        Blog
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 			<footer>
